@@ -17,10 +17,9 @@ export default {
 <style scoped>
     #nav {
         background-color: #222;
-        border-bottom: 4mm ridge rgb(10, 5, 82);
         padding: 15px 20px;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
     }
 
