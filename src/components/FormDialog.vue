@@ -48,6 +48,15 @@ export default {
                 this.localVisible = newValue 
             }
         }
+    },
+    methods: {
+        close() {
+            this.$emit('cancel')
+        },
+        
+        formar() {
+            this.$emit('format')
+        }
     }
 }
 </script>
